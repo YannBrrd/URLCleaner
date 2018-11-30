@@ -1,0 +1,19 @@
+{
+  "description": "Cleaning URLs from trackers and other toxic overloads",
+  "manifest_version": 2,
+  "name": "URLCleaner",
+  "version": "0.1",
+
+  "permissions": [
+    "webRequest",
+    "*://www.google.com/url?q="
+  ],
+
+  "background": {
+    "scripts": ["urlcleaner.js"]
+  },
+
+  "icons": {
+    "48": "icons/url-48.png"
+  }
+}
