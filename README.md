@@ -7,5 +7,5 @@ I'm bugged that when I click on a link in my gmail I have to wait for Google to 
 [Firefox Add-ons](https://addons.mozilla.org/addon/urlcleaner/)
 
 ## Chrome based browsers
-Builsd the zip file using [make.sh](https://github.com/YannBrrd/URLCleaner/blob/master/make.sh) then follow the following [tutorial](https://lifehacker.com/how-you-can-still-download-chrome-extensions-without-us-1826796797)
+Get the zip file [here](https://github.com/YannBrrd/URLCleaner/releases/latest) then follow the following [tutorial](https://lifehacker.com/how-you-can-still-download-chrome-extensions-without-us-1826796797)
 
