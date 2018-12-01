@@ -10,7 +10,7 @@ function redirect(requestDetails) {
     };
   }
   
-  browser.webRequest.onBeforeRequest.addListener(
+  chrome.webRequest.onBeforeRequest.addListener(
     redirect,
     {urls: [pattern]},
     ["blocking"]
