@@ -2,7 +2,7 @@
   "description": "Cleaning URLs from trackers and other toxic overloads. For now, gmail and snip.ly",
   "manifest_version": 2,
   "name": "URLCleaner",
-  "version": "0.4",
+  "version": "0.5",
 
   "permissions": [
     "webRequest",

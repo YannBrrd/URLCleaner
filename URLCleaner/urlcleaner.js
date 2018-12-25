@@ -1,6 +1,7 @@
 var urls_pattern = [
   "*://www.google.com/url?q=*",
-  "*://*.snip.ly/*#http*"
+  "*://*.snip.ly/*#http*",
+  "*://*.snip.ly/render/*/?_url=*"
 ]
 
 function cleanGoogle(url) {
@@ -10,6 +11,11 @@ function cleanGoogle(url) {
 
 function cleanSniply (url) {
   var q = url;
+  var snipURL = new URL(url);
+  var _url = snipURL.searchParams.get("_url");
+  if(_url != null) {
+    url = _url;
+  }
   if (url.indexOf('#') > -1)
     var q = url.split('#')[1];
   return q;
