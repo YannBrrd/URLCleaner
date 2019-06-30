@@ -1,8 +1,8 @@
 {
-  "description": "Cleaning URLs from trackers and other toxic overloads. For now, gmail and snip.ly",
+  "description": "Cleaning URLs from trackers and other toxic overloads. For now, gmail, snip.ly and fbclid",
   "manifest_version": 2,
   "name": "URLCleaner",
-  "version": "0.5",
+  "version": "0.7",
 
   "permissions": [
     "webRequest",
