@@ -3,7 +3,7 @@ var urls_pattern = [
   "*://*.snip.ly/*#http*",
   "*://*.snip.ly/render/*/?_url=*",
   "*fbclid=*",
-  "utm_"
+  "*utm_*"
 ]
 
 function cleanGoogle(url) {
