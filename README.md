@@ -4,6 +4,7 @@ Covers :
 1. Gmail redirect
 1. sniply redirect
 2. fbclid tracker
+3. utm_ params
 
 # Install
 ## Firefox
